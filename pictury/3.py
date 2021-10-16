@@ -39,8 +39,6 @@ def cot_loboy(x):
     cat_eye_color = x[4]
     black = (0, 0, 0)
     cat = pygame.Surface((900, 900))
-    W = 900
-    H = 1000
     fon_color = (128, 102, 0)
     cat.fill((128, 102, 0))
     draw_ellipse_angle(cat, cat_color, [526, 140, 280, 100], -30, 0)
