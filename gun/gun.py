@@ -127,7 +127,7 @@ class Gun:
 
 class target:
     def __init__(self, screen, point):
-        """ Инициализация новой цели круг. """
+        """ Инициализация новой цели. """
         self.x = random.randint(600, 780)
         self.y = random.randint(300, 550)
         self.r = random.randint(10, 50)
@@ -147,7 +147,6 @@ class target:
 
 class target_rect(target):
     def __init__(self, screen, point):
-        """ Инициализация новой цели прямоугольник. """
         self.vy = 5
         self.a = random.randint(30, 50)
         self.b = random.randint(30, 50)
@@ -169,7 +168,6 @@ class target_rect(target):
 
 class target_ellipse(target):
     def __init__(self, screen, point):
-        """ Инициализация новой цели эллипс. """
         self.vx = 5
         self.a = random.randint(30, 50)
         self.b = random.randint(30, 50)
